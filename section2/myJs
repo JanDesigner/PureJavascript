@@ -1,0 +1,45 @@
+
+
+// var john = {
+//     name : 'John',
+//     yearOfBirth : 1990,
+//     job : 'Teacher'
+// };
+
+// function calculateAge(yearOfBirth) {
+//     var thisYear = 2018;
+//     return thisYear - yearOfBirth;
+// }
+
+// var Person = function( name , yearOfBirth , job ){
+//     this.name = name;
+//     this.yearOfBirth = yearOfBirth;
+//     this.job = job;
+//     this.age = calculateAge(yearOfBirth);
+// } ;
+
+// var john2 = new Person("John" , 1993, "Teacher");
+
+// console.log(john2.age);
+
+
+// var personProto = {
+//     calculateAgeAge: function(){
+//         console.log(2018 - this.yearOfBirth);
+//     }
+// }// var
+
+// var john = Object.create(personProto);
+// john.name = "john";
+// john.yearOfBirth = 1993;
+// john.job = "teacher";
+
+
+// var jane = Object.create( personProto , {
+
+//         name:  { value : "Jane" },
+//         yearOfBirth: { value : 1993 },
+//         job: { value : "Designer" }
+
+// });
+ 
